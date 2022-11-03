@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <style type="text/css">
+        .porhead {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio 1 </title>
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+
+            <i class="fa  fa-graduation-cap fa-3x logo " alt="Portfolio" aria-hidden="true" id="iconportlogo"> <span
+                    class="porhead">Portfolio</span></i>
+            <!-- <img src="img/logo.png" alt="MySite" class="logo"> -->
+            <div class="header-text">
+                <h1>
+                    Hi! Shahnawaz here <br>
+                    A Developer ....
+                </h1>
+                <span class="square"></span>
+                <p>A quick learner and passionate to learn new technology</p>
+
+                <button class="common-btn">
+                    <a href="#about"> Know More</a>
+                </button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header"><br></a></li>
+            <li><a href="#header"><span class="sldtt">HOME</span></a></li>
+            <li><a href="#about"><span class="sldtt">ABOUT</span> </a></li>
+            <li><a href="#featuresid"><span class="sldtt">IDEAS</span></a></li>
+            <li><a href="#courseid"><span class="sldtt">SKILLS</span></a></li>
+            <li><a href="#offers"><span class="sldtt">ACHIEVEMENTS</span></a></li>
+            <li><a href="#contact"><span class="sldtt">CONTACT</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- 
+        fa 
+        fa-link  
+        fa_custom   
+        fa-2x       
+    -->
+    <i class="fa fa-bars fa_custom fa-2x icotbn" id="menuBtn" onclick="showOffMenu ()"> </i>
+    <!-- about -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="img/about.png" alt="">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <span class="square"></span>
+                <p>Shahnawaz here from Siwan Bihar. <br>
+                    I'm persuing BTech from MMDU Mullana with CSE <br>and I have done my +2 from
+                    BSEB Patna in 2019. <br>
+                    Interested in Artificial Intelligence and M.L. <br>
+                    Hobbies are blogging, youtube and music.
+                </p> <br>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- feature -->
+    <section id="featuresid">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="img/pic-1.png" alt="">
+                <h4>Ideas</h4>
+                <p>Always think new ideas to solve the problems </p>
+            </div>
+
+            <div class="feature-col">
+                <img src="img/pic-2.png" alt="">
+                <h4>Technology</h4>
+                <p>Queries to know about the new technology and learn.</p>
+            </div>
+
+            <div class="feature-col">
+                <img src="img/pic-3.png" alt="">
+                <h4>Implement and Boost</h4>
+                <p>Learn and implement to know more about the concept.</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">
+                <details>
+                    <summary><b>Explore More</b></summary>
+                    <div class="summary" style="text-align: left;">
+                        <h3>Ideas</h3>
+                        <p>An unique ideas comes when we start thinking from the root with different way. <br>
+                            <h4>Some current idea theme</h4>
+                            <li>Aggregation related</li>
+                            <li>AI for riding</li>
+                            <li>AI for medical</li>
+                        </p><br>
+                        <h3>Technology</h3>
+                        <p>Technology is keep updating and changing to much rapidly <br>
+                            <h4>Some current update tech related info</h4>
+                            <li>Chrome version on Windows 106.0.5249.91</li>
+                            <li>V8 is Google's open source best JS and WebAssembly engine, written in C++.</li>
+                            <li>5G in India by March 2024 possibly</li>
+                        </p><br>
+                        <h3>Implement</h3>
+                        <p>Implementation makes a perfect project even the all are getting not successful</h4>
+                        </p><br>
+
+                    </div>
+                </details>
+            </button>
+        </div>
+    </section>
+
+    <section id="courses courseid">
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Skills</h1>
+                    <span class="square"></span>
+
+                    <p>Intermediate level experience about Python,C, and C++. <br>
+                        There are some project based on the learned skills.<br>
+                        And Designing and content creation and Monotype logo sketching.
+                    </p>
+
+                    <button class="common-btn">
+                        <a href="#projects">Projects</a>
+                    </button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-right-col">
+                <img src="img/course.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- offer -->
+
+    <section id="offer">
+        <div class="offer-left-col">
+            <img src="img/offer.png" alt="">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>Achievements</h1>
+                <span class="square"></span>
+                <p>Reached the second rank in KYP in 2019 for IT and Soft Skill <br> and awarded with 'Megha-Marks'
+                    Mendel by the Director Sir.<br>
+
+
+
+                </p>
+
+                <button class="common-btn">
+                    View more
+                </button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- contact -->
+
+    <section id="contact">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+                <h1>Contact Now</h1>
+                <form action="#">
+                    <input type="text" placeholder="Enter Name" required>
+                    <input type="email" placeholder="Enter Email" required>
+                    <input type="text" placeholder="Your Message...">
+                    <div class="btn-box">
+                        <button class="common-btn formbtnh">
+                            Send
+                        </button>
+                    </div>
+                </form>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+
+            </div>
+            <div class="contact-right-col">
+                <img src="img/contact.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Product</h4>
+                        <small>Our plan</small><br>
+                        <small>Free trail</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>About Use</h4>
+                        <small>Request</small><br>
+                        <small>FAQs</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Explore</h4>
+                        <small>Find</small><br>
+                        <small>Address</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>help@codesam.com</small><br>
+                        <small>copyright 2022 CodeSam</small>
+                    </div>
+                    <div class="footer-logo">
+                        <i class="fa fa-graduation-cap fa-2x"><code>codesam</code></i>
+                        <button class="language-btn">
+                            English
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- social-icons -->
+    <div class="social-icons">
+        <i class=" fasc fa fa-facebook-square fa-2x faxcss"></i>
+        <i class=" fasc fa fa-instagram fa-2x faxcss"></i>
+        <i class=" fasc fa fa-twitter-square fa-2x faxcss"></i>
+        <i class=" fasc fa fa-linkedin-square fa-2x faxcss"></i>
+
+    </div>
+
+    <script src="app.js">
+
+
+    </script>
+</body>
+
+</html>
