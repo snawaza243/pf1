@@ -215,7 +215,7 @@
         <div class="container contact-row">
             <div class="contact-left-col">
                 <h1>Contact Now</h1>
-                <form action="mail.php" method="post">
+                <!-- <form action="mail.php" method="post" onsubmit="mail.php">
                     <input type="text" name="name" placeholder="Enter Name" required>
                     <input type="email" name="email" placeholder="Enter Email" required>
                     <input type="text" name="message" placeholder="Your Message...">
@@ -223,8 +223,27 @@
                         <button class="common-btn formbtnh" type="submit">
                             Send
                         </button>
+
+                        <input class="common-btn formbtnh" type="submit" value="Submit">
                     </div>
-                </form>
+                </form> -->
+
+
+                <form action="mail.php" method="post">
+                    <label for="name">Your Name</label>
+                    <input type="text"  name="name" placeholder="Your name..">
+                
+                    <label for="lname">Email</label>
+                    <input type="email"  name="email" placeholder="Your email..">
+                   
+                    <label for="message">Message</label>
+                    <textarea  name="message" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+
+
+
                 <div class="line">
                     <span class="line-1"></span><br>
                     <span class="line-2"></span><br>

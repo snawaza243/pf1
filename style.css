@@ -450,6 +450,7 @@ hr {
     left: 0;
     transform: translateY(-50%);
     z-index: 1;
+    /* transition: 0.5s; */
 
 }
 
@@ -469,6 +470,7 @@ hr {
 .fasc {
     box-sizing: border-box;
     box-sizing: content-box;
+    transition: 0.3s;
 }
 
 .fasc:hover {
@@ -479,7 +481,7 @@ hr {
     /* padding-top: 3px; */
     /* font-size: 37px; */
     transform: translate(5px, 0);
-    transition: 0.3s;
+    transition: 0.4s;
 
 }
 
