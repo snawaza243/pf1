@@ -211,17 +211,16 @@
 
 
     <!-- contact -->
-
     <section id="contact">
         <div class="container contact-row">
             <div class="contact-left-col">
                 <h1>Contact Now</h1>
-                <form action="#">
-                    <input type="text" placeholder="Enter Name" required>
-                    <input type="email" placeholder="Enter Email" required>
-                    <input type="text" placeholder="Your Message...">
+                <form action="mail.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <input type="text" name="message" placeholder="Your Message...">
                     <div class="btn-box">
-                        <button class="common-btn formbtnh">
+                        <button class="common-btn formbtnh" type="submit">
                             Send
                         </button>
                     </div>
