@@ -99,7 +99,7 @@ p {
     color: var(--white);
 }
 
-.header-text button {
+.header-text .button {
     margin-top: 20px;
     margin-bottom: 60px;
 
@@ -143,8 +143,7 @@ p {
     transform: 1s;
     z-index: 2;
     color: var(--white);
-    ;
-    background-color: var(--pink1);
+    background-color: var(--pink2);
     border-radius: 10px 0;
     font-family: sans-serif;
     line-height: 1;
@@ -153,7 +152,7 @@ p {
 }
 
 #sideNav:hover {
-    box-shadow: -7px 0 5px var(--white);
+    box-shadow: -1px 0 5px var(--white);
 
 
 }
@@ -305,13 +304,13 @@ nav ul li a {
     max-width: 350px;
 }
 
-.course-text button {
+.course-text .button {
     margin: 30px 0;
 }
 
 
 /* offer  */
-#offer button {
+#offer .button {
     margin: 30px 0;
 }
 
@@ -368,7 +367,7 @@ form input {
 
 }
 
-.btn-box button {
+.btn-box .button {
     flex-basis: 48%;
     padding: 18px 0;
 }
@@ -431,7 +430,7 @@ hr {
     width: 100px;
 }
 
-.footer-logo button {
+.footer-logo .button {
     padding: 12px 38px;
     margin-top: 20px;
     font-size: 10px;
@@ -485,28 +484,41 @@ hr {
 
 }
 
+
 .sldtt {
     background-color: var(--pink2);
-    ;
-    padding: 10px;
+    /* padding: 10px; */
     padding-right: 100%;
     border-radius: 10px;
     top: 80px;
-    border: 2px solid #ffffff;
+    width: 50px;
 
 }
 
 .sldtt:hover {
-    background-color: #ffffff;
-    color: var(--black);
-    ;
+    background-color: var(--pink2);
+    color: var(--white);
     border-color: var(--black);
-    ;
     cursor: pointer;
-    padding: 10px;
     padding-right: 100%;
     transition: 0.4s;
+    width: 100px !important;
+    text-decoration: underline;
+    transition: 0.4s;
 }
+
+.sldtt:active{
+    color: #000;
+}
+
+.button{
+    background-color: var(--pink2);
+}
+.button:hover{
+    color: var(--white);
+    transition: 0.4s;
+}
+
 
 @media only screen and (max-width: 770px) {
     * {
